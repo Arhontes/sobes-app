@@ -2,8 +2,8 @@ import React from "react";
 import App from "./App";
 import Layout from "./layout/Layout";
 import TasksPage from "./tasks/tasks-page/TasksPage";
-import {Task1} from "./tasks/task1/Task1";
-import Task2 from "./tasks/task2/Task2";
+import { Task1 } from "./tasks/task1/Task1";
+import { Task2 } from "./tasks/task2/Task2";
 import Task3 from "./tasks/task3/Task3";
 
 const routes = [
