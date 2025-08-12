@@ -12,7 +12,7 @@ export const Task2 = () => {
         fontFamily: "Arial, sans-serif",
       }}
     >
-      <TaskTarget target={taskTarget2} />
+      <TaskTarget target={taskTarget2} taskNumber={2} />
 
       <div style={{ width: 400 }}>
         <div></div>
