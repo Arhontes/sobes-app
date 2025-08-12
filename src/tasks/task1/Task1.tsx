@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { taskTarget1 } from "./taskTarget1";
 import { Card } from "react-bootstrap";
+import { TaskTarget } from "../../common/TaskTarget";
 
 const defaultTasks: any[] = [
   { id: 1, text: "Задача 1", completed: false },
@@ -34,17 +35,7 @@ export const Task1 = () => {
         fontFamily: "Arial, sans-serif",
       }}
     >
-      <Card style={{ margin: "20px", padding: "20px", width: 400 }}>
-        <h2>Задание 1</h2>
-        <p>{taskTarget1.taskDescription}</p>
-
-        <h3>Что нужно сделать:</h3>
-        <ul>
-          {taskTarget1.taskPoints.map((point, i) => (
-            <li key={i}>{point}</li>
-          ))}
-        </ul>
-      </Card>
+      <TaskTarget target={taskTarget1} />
 
       <div style={{ width: 400 }}>
         <h3>Список дел:</h3>
