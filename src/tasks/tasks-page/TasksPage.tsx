@@ -12,7 +12,8 @@ export default function TasksPage() {
       title: "Задание 2",
       description: "React Hooks 💡",
     },
-    { id: 3, title: "Задание 3", description: "Удивите нас своим решением 🚀" },
+    { id: 3, title: "Задание 3", description: "Tипизация🚀" },
+    { id: 4, title: "Задание 4", description: "CSS" },
   ];
 
   const tasks = [

@@ -8,6 +8,7 @@ import Task3 from "./tasks/practical/task3/Task3";
 import { Theory1 } from "./tasks/theory/theory-1/Theory1";
 import { Theory2 } from "./tasks/theory/theory-2/Theory2";
 import { Theory3 } from "./tasks/theory/theory-3/Theory3";
+import { Theory4 } from "./tasks/theory/theory-4/Theory4";
 
 const routes = [
   {
@@ -45,6 +46,10 @@ const routes = [
       {
         path: "tasks/theory-task3",
         element: <Theory3 />,
+      },
+      {
+        path: "tasks/theory-task4",
+        element: <Theory4 />,
       },
     ],
   },
