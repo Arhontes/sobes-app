@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { taskTarget1 } from "./taskTarget1";
 import { Card } from "react-bootstrap";
-import { TaskTarget } from "../../common/TaskTarget";
+import { TaskTarget } from "../../../common/TaskTarget";
 
 const defaultTasks: any[] = [
   { id: 1, text: "Задача 1", completed: false },

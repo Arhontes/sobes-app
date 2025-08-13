@@ -1,5 +1,5 @@
 import React from "react";
-import { TaskTarget } from "../../common/TaskTarget";
+import { TaskTarget } from "../../../common/TaskTarget";
 import { taskTarget2 } from "./taskTarget2";
 
 export const Task2 = () => {
