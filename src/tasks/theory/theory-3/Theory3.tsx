@@ -11,7 +11,10 @@ import { TaskTarget } from "../../../common/TaskTarget";
 
 const taskTarget1 = {
   description: "Знание и использование типизации в проекте",
-  points: [],
+  points: [
+    "Ответьте на вопросы по типам данных и утилитным типа",
+    "Раскажите про опыт использования дженериков. Приведите небольшой пример",
+  ],
 };
 
 const tsSpecialTypes = [
@@ -118,13 +121,13 @@ export const Theory3 = () => {
         fontFamily: "Arial, sans-serif",
       }}
     >
-      <TaskTarget target={taskTarget1} taskNumber={2} />
+      <TaskTarget target={taskTarget1} taskNumber={3} />
 
       <div className="d-flex flex-column gap-3" style={{ width: 400 }}>
         {/* Специальные типы */}
 
         <div>
-          <h3>Специальные типы</h3>
+          <h3>Типы данных Javascript</h3>
           <ButtonGroup className="mb-3">
             {tsSpecialTypes.map((t) => (
               <Button
