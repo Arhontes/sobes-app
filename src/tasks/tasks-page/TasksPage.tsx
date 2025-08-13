@@ -5,7 +5,7 @@ import { Container, Row, Col, Card, Button } from "react-bootstrap";
 export default function TasksPage() {
   const navigate = useNavigate();
 
-  const tasks = [
+  const theoryTask = [
     { id: 1, title: "Задание 1", description: "Знания FSD-архитектуры" },
     {
       id: 2,
@@ -15,7 +15,7 @@ export default function TasksPage() {
     { id: 3, title: "Задание 3", description: "Удивите нас своим решением 🚀" },
   ];
 
-  const theoryTask = [
+  const tasks = [
     { id: 1, title: "Задание 1", description: "Сделайте что-то интересное 🙂" },
     {
       id: 2,
