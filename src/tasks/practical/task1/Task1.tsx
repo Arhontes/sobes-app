@@ -35,7 +35,7 @@ export const Task1 = () => {
         fontFamily: "Arial, sans-serif",
       }}
     >
-      <TaskTarget target={taskTarget1} />
+      <TaskTarget target={taskTarget1} taskNumber={1} />
 
       <div style={{ width: 400 }}>
         <h3>Список дел:</h3>
