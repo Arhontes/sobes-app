@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { TaskTarget } from "../../common/TaskTarget";
+import { TaskTarget } from "../../../common/TaskTarget";
 import { taskTarget2 } from "./taskTarget2";
 import { Badge, Button, Card, Modal } from "react-bootstrap";
 import s from "./Task2.module.scss";
